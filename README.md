@@ -1,17 +1,19 @@
+<body style="background-color: #f1f1f1; color: #696969;>
+</body>
+
 <div 
-style="display: flex;
-  justify-content: center;"
+style="display: flex;"
 >
 <img 
 src="images/php_logo.png"
 alt="PHP Elephant Logo"
-style="float: left; margin-right: 10px; height: 100px; width: auto;"
+style="margin-left: 100px; height: 100px; width: auto; text-align: center;"
 />
 
 </div>
 
 
-
+<br />
 ### PHP Installation
 
 To install [PHP](https://www.php.net/) on MacOS use the terminal, be sure to have [homebrew](https://brew.sh/) installed. 
@@ -33,7 +35,7 @@ Once PHP is installed, create a PHP file **index.php**.
 To run the file on local server, using terminal go into the directory where your php file is located and run the command `php -S localhost:8000` You can use whatever server you want, I am using 8000 here. 
 You can also run the PHP file in termail using the command `php index.php`
 
-
+<br />
 ### VS Code
 
 **Helpful extensions:**
@@ -52,9 +54,11 @@ You can also run the PHP file in termail using the command `php index.php`
 Mulitle line comment.
 */`
 
+<br />
 ## Printing
 
 Print & Echo are called language constructs, sometimes referred to as statements.
+
 
 #### Print
 
@@ -80,6 +84,7 @@ Unlike print, echo can contain multiple values;
 
 `echo 'Value One', 'Value Two';`
 
+<br />
 ## Variables
 ####Variable naming in PHP
 * Prefixed with a dollar sign ($)
@@ -88,24 +93,73 @@ Unlike print, echo can contain multiple values;
 * Can only contain letters, numbers and underscores
 * Are case sensitive ($Name and $name are not the same)
 
+<br />
 ## PHP Data Types
 
 * **String:** Sequence of characters. Enclosed in quotes
+
+`$name = 'Phillip Harden';`
+
 * **Integer:** Whole number. It can be positive or negative
+
+`$age = 46;`
+
 * **Float:** Number with a decimal point
+
+`$rating = 4.5;`
+
 * **Boolean:** true or False
+
+`$isLoaded = true;`
+
 * **Array:** Holds multiple values
+
+`$friends = ['Yaphet', 'Robert', 'Matt', 'Adam'];`
+
 * **Object:** Collection of properties & methods
+
+`$person = new stdClass();`
+
 * **Null:** Represents a variable with no value
 
+`$nothing = null;`
+
+* **Resource:**
+
+`$file = fopen('index.php', 'r');`
 
 
+To get the variable type you can use:
+
+`var_dump($name);`
+
+or
+
+`echo getType($name);`
 
 
+<br />
+## Concatenation
 
+When concatenating the separator is a `.`
 
+`$name = 'Phillip';`
 
+`$lastName = 'Harden';`
 
+`$fullName = $name.' '. $lastName;`
+
+<br />
+
+`<?= 'Hello, my name is '. $fullName ?>`
+
+`<?= "Hello, my name is $fullName" ?>`
+
+`<?= 'Hello, my name is \'Phillip\'' ?>`
+
+`<?= "Hello, my name is \"Phillip\"" ?>`
+
+`<?= "Hello, my name is \"$fullName\"" ?>`
 
 
 

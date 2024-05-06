@@ -4,7 +4,8 @@
 $name = 'Phillip Harden';
 $name2 = "John Doe";
 
-var_dump($name2);
+var_dump($name);
+echo getType($name);
 echo '<br/>';
 
 // Integer - Positive & Negative Numbers
