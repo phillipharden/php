@@ -1,19 +1,5 @@
-<body style="background-color: #f1f1f1; color: #696969;>
-</body>
+<div style="display: flex; align-items: center;"><img src="images/php_logo.png" alt="PHP Elephant Logo" style="margin-left: 10px; height: 100px; width: auto;" /></div><br />
 
-<div 
-style="display: flex;"
->
-<img 
-src="images/php_logo.png"
-alt="PHP Elephant Logo"
-style="margin-left: 100px; height: 100px; width: auto; text-align: center;"
-/>
-
-</div>
-
-
-<br />
 ### PHP Installation
 
 To install [PHP](https://www.php.net/) on MacOS use the terminal, be sure to have [homebrew](https://brew.sh/) installed. 
@@ -93,6 +79,7 @@ Unlike print, echo can contain multiple values;
 * Can only contain letters, numbers and underscores
 * Are case sensitive ($Name and $name are not the same)
 
+[Variable | Basics](https://www.php.net/manual/en/language.variables.basics.php)
 <br />
 ## PHP Data Types
 
@@ -138,6 +125,7 @@ or
 `echo getType($name);`
 
 
+`PHP Data Types`
 <br />
 ## Concatenation
 
@@ -162,7 +150,12 @@ When concatenating the separator is a `.`
 `<?= "Hello, my name is \"$fullName\"" ?>`
 
 
-
+<br />
+## Typecasting & Juggling
+ 
+ [Juggling Doc](https://www.php.net/manual/en/language.types.type-juggling.php)
+ 
+ [PHP Casting](https://www.w3schools.com/php/php_casting.asp)
 
 
 
