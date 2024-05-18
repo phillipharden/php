@@ -1,6 +1,6 @@
 <div style="display: flex; align-items: center;"><img src="images/php_logo.png" alt="PHP Elephant Logo" style="margin-left: 10px; height: 100px; width: auto;" /></div><br />
 
-<p style="font-size: 50px; color: blue; font-weight: bold;">PHP</p>
+# PHP
 
 ### Installation
 
