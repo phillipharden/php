@@ -156,6 +156,83 @@ When concatenating the separator is a `.`
  [Juggling Doc](https://www.php.net/manual/en/language.types.type-juggling.php)
  
  [PHP Casting](https://www.w3schools.com/php/php_casting.asp)
+ 
+
+
+**Implicit Typecasting [Juggling]:**
+When PHP automatically converts values from one type to another whenever required
+
+**Explicit Typecasting:**
+When you explicitly specify the target data type using casting operators
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+<p style="font-size: 10px; color: blue;">Phillip Harden 2024</p>
+
+
+
 
 
 
