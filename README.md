@@ -464,6 +464,10 @@ More references: [https://www.php.net/manual/en/ref.strings.php](https://www.php
 
 
 </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+<div style="display: flex; align-items: center;"><img src="images/cir.png" alt="PHP Elephant Logo" style="margin-left: 10px; height: 100px; width: auto;" /></div><br />
+
+
 <p style="font-size: 10px; color: blue;">Phillip Harden 2024</p>
 
 
