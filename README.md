@@ -2,16 +2,6 @@
 
 # PHP
 
-# Table of Contents
-
-1. [Installation](#installation)
-2. [Printing](#printing)
-3. [Comments](#comments)
-4. [Variables](#variables)
-5. [PHP Data Types](#php-data-types)
-6. [Concatenation](#concatenation)
-7. [Typecasting & Juggling](#typecasting--juggling)
-8. [Arithmetic Operators & Functions](#arithmetic-operators--functions)
 
 <br/>
 ## Installation
