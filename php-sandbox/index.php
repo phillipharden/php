@@ -1,7 +1,7 @@
 <?php
 // variables
-$title = 'PHP Example';
-$heading = 'Welcome To The PHP Example Page'; 
+$title = 'PHP Testing';
+$heading = 'Welcome To The PHP Testing Page'; 
 $body = 'Welcome to our PHP example page! PHP (Hypertext Preprocessor) is a powerful server-side scripting language used to develop dynamic web applications and websites.';
 
 ?>

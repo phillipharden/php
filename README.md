@@ -2,7 +2,19 @@
 
 # PHP
 
-### Installation
+# Table of Contents
+
+1. [Installation](#installation)
+2. [Printing](#printing)
+3. [Comments](#comments)
+4. [Variables](#variables)
+5. [PHP Data Types](#php-data-types)
+6. [Concatenation](#concatenation)
+7. [Typecasting & Juggling](#typecasting--juggling)
+8. [Arithmetic Operators & Functions](#arithmetic-operators--functions)
+
+<br/>
+## Installation
 
 To install [PHP](https://www.php.net/) on MacOS use the terminal, be sure to have [homebrew](https://brew.sh/) installed. 
 
@@ -33,7 +45,7 @@ You can also run the PHP file in termail using the command `php index.php`
 
 
 
-
+<br/>
 ## Comments
 
 `// This is a single line comment.` 
@@ -41,6 +53,7 @@ You can also run the PHP file in termail using the command `php index.php`
 `/*
 Mulitle line comment.
 */`
+
 
 <br />
 ## Printing
@@ -72,6 +85,7 @@ Unlike print, echo can contain multiple values;
 
 `echo 'Value One', 'Value Two';`
 
+
 <br />
 ## Variables
 ####Variable naming in PHP
@@ -82,6 +96,8 @@ Unlike print, echo can contain multiple values;
 * Are case sensitive ($Name and $name are not the same)
 
 [Variable | Basics](https://www.php.net/manual/en/language.variables.basics.php)
+
+
 <br />
 ## PHP Data Types
 
@@ -128,6 +144,7 @@ or
 
 
 `PHP Data Types`
+
 <br />
 ## Concatenation
 
@@ -137,7 +154,7 @@ When concatenating the separator is a `.`
 
 `$lastName = 'Harden';`
 
-`$fullName = $name.' '. $lastName;`
+`$fullName = $name .' '. $lastName;`
 
 <br />
 
@@ -171,19 +188,19 @@ When you explicitly specify the target data type using casting operators
 
 `<?php`
 
-`$number1 = 0;`
+`$number1 = 0; // int`
 
-`$number2 = 7;`
+`$number2 = 7; // int`
 
-`$number3 = '16';`
+`$number3 = '16'; // string`
 
-`$fruit = 'apple';`
+`$fruit = 'apple'; // string`
 
-`$bool1 = true;`
+`$bool1 = true; // bool`
 
-`$bool2 = false;`
+`$bool2 = false; // bool`
 
-`$null = null;`
+`$null = null; // null`
 
 `// Implicit Conversion (Juggling)`
 
@@ -195,7 +212,9 @@ When you explicitly specify the target data type using casting operators
 
 `$result = $number1 . $number2; // string (int to string)`
 
-`// $result5 = $fruit + $number2; // Error`
+> Fatal error: Uncaught TypeError: Unsupported operand types: string + int
+
+`$result5 = $fruit + $number2; // Error`
 
 `$result = $number1 + $bool1; // int int (bool to int) true converts to 1`
 
@@ -215,19 +234,145 @@ When you explicitly specify the target data type using casting operators
 
 
 
+<br/>
+## Arithmetic Operators & Functions
+
+### Arithmetic Operators
+
+`+` Addition 
+
+`-` Suntraction
+
+`*` Multiplication
+
+`/` Division 
+
+`%` Modulus
+
+</br>
+
+ **Example**
+
+`$output = null;`
+
+`$num1 = 20;`
+`$num2 = 10;`
+
+</br>
+
+> 20 + 10 = 30
+
+`$output = "$num1 + $num2 = " . $num1 + $num2;`
+
+> 20 - 10 = 10
+
+`$output = "$num1 - $num2 = " . $num1 - $num2;`
+
+> 20 * 10 = 200
+
+`$output = "$num1 * $num2 = " . $num1 * $num2;`
+
+> 20 / 10 = 2
+
+`$output = "$num1 / $num2 = " . $num1 / $num2;`
+
+> 20 % 10 = 0
+
+`$output = "$num1 % $num2 = " . $num1 % $num2;`
+
+</br>
+### Assignment Operators
+
+Here I will add 20 to the value of $num3
+
+`$num3 = 10;`
+
+Instead of using:
+
+`$num3 = $num3 + 20;`
+
+I can use the assignment operator:
+
+`$num3 += 20;`
+
+ This works for all of the operators.
+
+</br>
+### Built-in PHP Functions
+
+**rand() genrates a random number**
+
+`$output = rand();`
+
+`$output = getrandmax();`
+
+`$output = rand(1, 10);`
+
+</br>
+
+**round()**
+
+`$output = round(4.2); // rounds to 4`
+
+</br>
+
+**ceil() - always rounds up**
+
+`$output = ceil(4.2); // rounds up to 5`
+
+</br>
+
+**floor() - rounds down**
+
+`$output = floor(4.9); // round down to 4`
+
+</br>
+
+**sqrt() - get the square**
+
+`$output = sqrt(64); // displays the square root of 64 which is 8`
+
+</br>
+
+**pi - 3.1415926535898**
+
+`$output = pi();`
+
+</br>
+
+**abs() - gives the absolute number, canges negative to positive**
+
+`$output = abs(-4.7); `
+
+</br>
 
 
+**max() - find the largest number**
+
+`$output = max(1, 2, 3, 50); // displays 50`
+
+`$output = max([1, 25, 3]); // works with arrays/displays 25`
+
+</br>
+
+**min() - find the lowest number**
+
+`$output = min(1, 2, 3, 50);`
+
+`$output = min([1, 25, 3]); // works with arrays`
 
 
+</br>
 
+**Number format - this will place comas in the appropriate loactions of arge numbers**
 
+`$output = number_format(2352346.2346246);`
 
+The first parameter is the number i want to format. The second parameter is the number of decimal points you want in the formatted number. Here, it is set to 2, meaning the number will be rounded and formatted to two decimal places. The third parameter is the decimal point character. In this example, it is set to a period. The fourth parameter is the thousands separator. In this case, it is set to a comma.
 
+`$output = number_format(2352346.2346246, 2, '.', ',' );`
 
-
-
-
-
+> This will display the formatted number as 2,352,346.23
 
 
 
