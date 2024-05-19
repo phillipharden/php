@@ -364,6 +364,76 @@ The first parameter is the number i want to format. The second parameter is the 
 
 > This will display the formatted number as 2,352,346.23
 
+</br>
+
+## String Functions
+
+
+`$output = null;`
+
+`$string = 'hello World';`
+
+
+**String Length**
+
+`$output = strlen($string); // displays 11`
+
+
+**String Word Count**
+
+`$output = str_word_count($string); // displays 2`
+
+
+
+
+**String Position** - this displays 6 becasue that is the index in which the word World starts
+
+`$output = strpos($string, 'World');`
+
+Get the specific character by index
+
+`$output = $string[4]; // displays 'o' becasue it is at index 4`
+
+
+**Substring** - this will get the substring of the characters located within the indexes you out in the 2nd & 3rd parameters
+
+`$output = substr($string, 6, 5); // displays "World"`
+
+
+**String Replace**
+
+This can replace any section of a string by searching the characters and replacing them
+
+`$output = str_replace('World', 'People', $string); `
+
+
+String to lower will make the string all lowercase
+
+`$output = strtolower($string);`
+
+/String to upper
+
+`$output = strtoupper($string);`
+
+Uppercase Words will make the first letter of every word uppercase
+
+`$output = ucwords($string);`
+
+
+**Trim**
+
+`$output = trim('    Hello World     ');`
+
+</br>
+
+More references: [https://www.php.net/manual/en/ref.strings.php](https://www.php.net/manual/en/ref.strings.php)
+
+
+
+</br>
+
+
+## Dates & Times
 
 
 
@@ -393,20 +463,6 @@ The first parameter is the number i want to format. The second parameter is the 
 
 
 
-
-
-
-
-
-
-
-
-
-
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
-</br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
 <p style="font-size: 10px; color: blue;">Phillip Harden 2024</p>
 
