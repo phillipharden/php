@@ -435,6 +435,15 @@ More references: [https://www.php.net/manual/en/ref.strings.php](https://www.php
 
 ## Dates & Times
 
+- `Y` - The year
+- `m` - The month
+- `d` - The day
+- `D` - The short name of the day of the week
+- `l` - The name of the day of the week
+- `h` - The hour
+- `i` - The minute
+- `s` - The second
+- `a` - AM/PM
 
 
 
