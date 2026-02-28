@@ -1,6 +1,33 @@
 <div style="display: flex; align-items: center;"><img src="images/php_logo.png" alt="PHP Elephant Logo" style="margin-left: 10px; height: 100px; width: auto;" /></div><br />
 
-# PHP
+# PHP 🐘⚡
+
+### A PHP learning repo that includes installation notes, syntax examples, and sandbox folders for practicing PHP locally.
+
+## 🚀 Features
+
+- 🐘 PHP installation notes for macOS (Homebrew)  
+- 🧪 Local PHP sandbox folders for practicing code  
+- 💬 Comment examples (single-line + multi-line)  
+- 🖨️ Printing examples (print / echo / shorthand echo)  
+- 🔤 Variables and PHP data types examples  
+- 🔗 Concatenation examples  
+- 🎯 Type casting + type juggling examples  
+- 🧰 VS Code extension recommendations for PHP development  
+
+## 🛠️ Tech Stack
+
+- PHP – Server-side scripting language  
+- Homebrew – Package manager (macOS install method)  
+- VS Code – Editor tooling  
+
+## 📂 Installation & Setup
+
+Clone this repo:
+
+```bash
+git clone https://github.com/phillipharden/php.git
+cd php
 
 
 <br/>
